@@ -14,7 +14,7 @@ az extension add baremetal-infrastructure
 To create a BareMetal instance:
 
 ```
-az baremetalinstance create --resource-group $RESOURCE_GROUP --instance-name $BM_INSTANCE_NAME --location $LOCATION --sku $SKU --tags key1=value1 key2=value2
+az baremetalinstance create --resource-group $RESOURCE_GROUP --instance-name $BM_INSTANCE_NAME --location $LOCATION --sku $SKU
 ```
 
 To delete a BareMetal instance:
